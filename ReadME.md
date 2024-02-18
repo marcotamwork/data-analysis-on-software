@@ -1,6 +1,6 @@
 # Program-of-my-summer-intern
 
-Here's the file of task that I've finished in last summer(2020). All of it is about data analysis for software in HACTL Limited. An d my job is to find the user behaviour of software that userd by employees and customers in HACTL.
+Here's the file of task that I've finished in last summer(2020). All of it is about data analysis for company main software. And my job is to find the user behaviour of software that userd by employees and customers.
 
 All of the materials I analysed is log file in company. Starting with daily and weekly database, I have analysed the whole year function at last (each month one by one). So the size of database will be at least around 800,000 logging record.
 
@@ -18,7 +18,7 @@ And lastly, due to Non-Disclosure Agreement, the code of data analysis program a
 
 ## similarity for CPlus, CSS, BSS
 
-CPlus, CSS, BSS are three main function/programme that used by employees(porters) in HACTL. This task is to find out similarity between these 3 programmes from aspect of **floors**, time, role. SD and mean are calculated as a stantard to measure the difference between **floors**. 
+CPlus, CSS, BSS are three main function/programme that used by employees(porters). This task is to find out similarity between these 3 programmes from aspect of **floors**, time, role. SD and mean are calculated as a stantard to measure the difference between **floors**. 
 
 Example:
 |Floor           |Role              |SD                           | Mean    |     
@@ -32,7 +32,7 @@ Example:
 
 ...
 ...
-> **Note:** Each Floor in HACTL has its speceific function. For example, floor 4 is for storing refrigerated cargo, floor 1 is to load cargo onto truck, etc. 
+> **Note:** Each Floor has its speceific function. For example, floor 4 is for storing refrigerated cargo, floor 1 is to load cargo onto truck, etc. 
 
 > **Note:** Role will be divide in to 'OTHERS', 'OC', 'SUPR', and 'MANAGER'.
 
